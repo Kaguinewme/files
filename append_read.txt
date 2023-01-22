@@ -1,0 +1,10 @@
+There are mainly two types of data files — text file and binary file.
+A text file consists of human readable characters,
+which can be opened by any text editor.
+On the other hand binary files are made up of non-human readable characters
+and symbols, which require specific programs to access its contents.
+text file and binary file.
+append to the end of a file.
+text file and binary file.
+text data stores data in the form of charcaters or strings.
+text file and binary file.

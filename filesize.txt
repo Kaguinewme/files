@@ -1,0 +1,34 @@
+Python is an interpreted, object-oriented, high-level programming language
+with dynamic semantics. Its high-level built in data structures,
+combined with dynamic typing and dynamic binding,
+make it very attractive for Rapid Application Development,
+as well as for use as a scripting or glue language to connect
+existing components together.
+asdfghjkertyuioiuytsasdfghjkuytrewasxcvjuytrsxcvhytrd
+a Mode in Python File Opening
+The a mode opens the file for the purpose of appending. The file pointer in this mode is placed at the end of the file if it already exists in the system. If the file does not exist, then it is created for writing.
+
+The a mode can be used in the open() function in the following way.
+
+f1 = open("god.txt", "a")
+a+ Mode in Python File Opening
+The a+ mode opens the file for both reading and appending. The file pointer in this mode is placed at the end of the file if it already exists in the system. The file opens in the append mode. If the file does not exist, then it is created for writing.
+
+ADVERTISING
+
+
+
+The a+ mode can be used in the open() function in the following way.
+
+f1 = open("god.txt", "a+")
+For opening the file in binary mode, we can add the ab+ mode.
+
+f1 = open("god.txt", "ab+")
+x Mode in Python File Opening
+This mode is available for the versions Python 3 and above. The x mode opens the file for exclusive creation, failing if the file with that name is already existent. When exclusive creation is specified, it means that this mode will not create a file if the file with the specified name already exists. In the x mode, the file is only writeable, but in x+ mode, the file is opened as both readable and writeable.
+
+This mode is significant and comes in handy when we don’t want to accidentally truncate an already existing file with the a or w modes.
+
+The x mode can be used in the open() function in the following way.
+
+f1 = open("god.txt", "x")
